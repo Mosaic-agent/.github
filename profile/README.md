@@ -38,28 +38,4 @@ Addressing the challenge of fragmented financial data by centralizing holdings, 
 
 ## Getting Started
 
-### 1. Prerequisites
-* **Python:** 3.11+
-* **Accounts/Keys:** Zerodha account (optional, includes a `--demo` mode).
-* **AI Providers:** API keys for OpenAI, Anthropic, or local LLMs (Ollama/LM Studio).
-
-### 2. Quick Installation
-```bash
-git clone https://github.com/Mosaic-agent/Mosaic-fund-agent.git
-cd Mosaic-fund-agent
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-```
-*Note: macOS users should run `brew install libomp` for LightGBM.*
-
-### 3. Setup & Configuration
-1. **Env Vars:** Copy `.env.example` to `.env` and add your `OPENAI_API_KEY`, `NEWSAPI_KEY`, and `GOLD_API_KEY`.
-2. **Database (Optional):** Start ClickHouse if you want historical tracking and the Data Hub:
-   ```bash
-   docker compose up clickhouse -d
-   ```
-
-### 4. Running the Agent
-* **Analyze Portfolio (Demo):** `python src/main.py analyze --demo`
-* **Ask Questions:** `python src/main.py ask "Which holdings have the worst news sentiment?"`
-* **Launch UI:** `python src/main.py ui` (Access at `http://localhost:8501`)
+For detailed setup and installation instructions, please refer to the [Mosaic-fund-agent Repository](https://github.com/Mosaic-agent/Mosaic-fund-agent#getting-started).
