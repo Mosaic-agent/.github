@@ -2,6 +2,8 @@
 
 A personal AI-driven research tool for Indian retail investors to gain actionable investment insights.
 
+**Project Repository:** [Mosaic-fund-agent](https://github.com/Mosaic-agent/Mosaic-fund-agent)
+
 ## Vision
 To empower retail investors with institutional-grade analysis by combining live portfolio data, LLM-driven sentiment, risk scoring, and quantitative ML forecasting.
 
